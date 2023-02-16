@@ -1,0 +1,23 @@
+/* descendent selector combinator untuk slicing paragraph di dalam div */
+div p
+{
+    background-color: red;
+}
+
+/* selector combinator */
+div > p
+{
+    background-color: blue;
+}
+
+/* untuk setelah div */
+div + p + p
+{
+    background-color: greenyellow;
+}
+
+/* untuk seinduk dengan div */
+div ~ p
+{
+    background-color: aqua;
+}

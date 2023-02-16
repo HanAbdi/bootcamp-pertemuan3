@@ -1,0 +1,51 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    width: 600px;
+    margin: 50px auto;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(223, 172, 105);
+    padding: 10px;
+}
+
+.sidebar aside{
+    background-color: bisque;
+    padding: 20px;
+}
+
+.sidebar nav{
+    background-color: beige;
+    padding: 20px;
+}
+
+main{
+    background-color: rgb(245, 224, 189);
+    flex: 1px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container footer{
+    background-color: rgb(232, 211, 138);
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+}
+
+.sidebar{
+    flex: 1px;
+}
